@@ -11,21 +11,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-  <div class="container">
-    <div class="site-header">
-      <h1>Jam Box Studios</h1>
-      <div class="main-nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Reservation</a></li>
-          <li><a href="#">Studio</a></li>
-        </ul>
-      </div>
+      <div class="container">
+          <header>
+          <div class="site-header">
+            <h1>Jam Box Studios</h1>
+          </div>
+          </header>      
+      <nav>
+        <div class="main-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Studio</a></li>
+          </ul>
+        </div>
+      </nav>  
+      <main>
       <img src="https://placekitten.com/1200/900" alt="Small kitten on a counter" class="banner">
-    </div>
     <div class="main-content">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
@@ -48,23 +52,26 @@
       </div>
       <div class="contact-section">
         <h1>Contact Us</h1>
-        <form action="thanks.html">
-          <input type="text" id="name" placeholder="Full Name">
-          <label for="name">Full Name</label>
-          <input type="text" id="email" placeholder="Email">
-          <label for="email">Email</label>
-          <input type="text" id="subject" placeholder="Subject">
-          <label for="subject">Subject</label>
+          <form action="thanks.html">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="John Doe">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="john@website.com">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Kittens">
           <b>Your Message</b>
           <textarea></textarea>
           <button type="submit">Send</button>
         </form>
-      </div>
-    </div>
+          
+        </div>
+      </div>  
+    </main>
+  <footer>
     <div class="site-footer">
       &copy; 2021 Jam Box Studios
     </div>
+  </footer>
   </div>
 </body>
-
 </html>
