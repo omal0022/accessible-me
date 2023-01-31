@@ -15,11 +15,11 @@ h6 {
 }
 
 h1 {
-  color: #7D8CC4;
+  color: #3F508D;
 }
 
 h2 {
-  color: #7D8CC4;
+  color: #3F508D;
 }
 
 .container {
@@ -56,7 +56,6 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color:#594157;
-  ;
   color: white;
 }
 
